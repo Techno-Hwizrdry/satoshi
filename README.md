@@ -2,7 +2,7 @@
 A simple command line satoshi to fiat currency conversion tool.
 
 
-Satoshi.py is a simple command line conversion tool for satoshis to fiat currency (USD, EUR, CNY, etc.).
+Satoshi.py is a simple command line conversion tool for satoshi to fiat currency (USD, EUR, CNY, etc.).
 
 This script uses the CryptoCompare API to get the rates of various cryptocurrencies.  https://www.cryptocompare.com/api/
 
