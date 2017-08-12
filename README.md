@@ -28,4 +28,10 @@ You can list multiple unique fiat currency symbols, separated by a comma.  For e
 
     python satoshi.py -s 25640 -c BTC -f USD,EUR,JPY,CNY,CAD
 
-The script will print to standard output the fiat currencies and value of satoshis, as a tab delimited pair, one per line.
+The script will print to standard output the fiat currencies and value of satoshis, as a tab delimited pair, one per line.  The output for the example command will look something like this:
+
+    JPY	103.95
+    USD	0.94
+    CAD	1.21
+    CNY	6.24
+    EUR	0.80
