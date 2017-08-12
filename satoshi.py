@@ -11,7 +11,7 @@ import sys
 import urllib3
 
 API_URL      = "https://min-api.cryptocompare.com/data/price?fsym=%s&tsyms=%s"
-COINFRACTION = float(10**-8)    # A satoshi is one one hundred millionth (0.00000001) of 1 coin.
+COINFRACTION = float(10**-8)    # A satoshi is one hundred millionth (0.00000001) of 1 coin.
 
 class SatoshiParser(ArgumentParser):
 	def error(self, message):
